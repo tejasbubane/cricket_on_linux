@@ -1,0 +1,32 @@
+========================================================================================
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+=========================================================================================
+
+How to use?? :
+
+1. Open terminal(Husshh..)
+
+2. Check if conky is installed. Type :
+		conky -v
+   If it returns a version, you have conky installed, proceed to step 3 else install conky by:
+   		sudo apt-get install conky (for ubuntu-based distros)
+   		sudo yum install conky (for fedora)
+   for other OS seek help from your community (i don't know)
+
+3. Navigate to the folder where you have downloaded this file named cricket.conkyrc
+
+4. Use the following command to launch the conky and tell it to use this file:
+		conky -c cricket.conkyrc
+	
+=========================================================================================
+
+Created by: Tejas Bubane - tejasbubane@gmail.com , tejasbubane007@yahoo.co.in
+
+=========================================================================================

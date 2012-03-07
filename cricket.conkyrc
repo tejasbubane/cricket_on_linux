@@ -1,0 +1,56 @@
+# - Conky SCORECARD settings - #
+update_interval 1
+total_run_times 0
+
+imlib_cache_size 0
+double_buffer yes
+no_buffers yes
+
+format_human_readable
+
+# - Text settings - #
+use_xft yes
+xftfont Droid Sans:size=10
+override_utf8_locale yes
+text_buffer_size 2048
+
+# - Window specifications - #
+own_window_class Conky
+own_window yes
+own_window_type normal
+own_window_argb_visual yes
+own_window_argb_value 180
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+alignment top_right
+gap_x 15
+gap_y 10
+minimum_size 182 600
+maximum_width 400
+
+default_bar_size 60 8
+
+# - Graphics settings - #
+draw_shades no
+
+default_color cccccc
+
+#color0 white
+#color1 77507b
+#color2 white
+
+################################
+
+TEXT
+
+${color dark green}${font Ubuntu:style=Bold:size=10}LIVE SCORECARD
+${color blue}${font URW Chancery L:style=Medium Italic:size=12}${rss http://static.espncricinfo.com/rss/livescores.xml 5 item_titles 5}
+
+${color dark green}${font Ubuntu:style=Bold:size=10}CRICKET HAPPENINGS IN INDIA
+${color blue}${font URW Chancery L:style=Medium Italic:size=12}${rss http://www.espncricinfo.com/rss/content/story/feeds/6.xml 5 item_titles 10}
+
+${color dark green}${font Ubuntu:style=Bold:size=10}GLOBAL CRICKET
+${color blue}${font URW Chancery L:style=Medium Italic:size=12}${rss http://www.espncricinfo.com/rss/content/story/feeds/0.xml 5 item_titles 5}
+
+###### Created by--- TEJAS BUBANE(tejasbubane007@yahoo.co.in) ##########
